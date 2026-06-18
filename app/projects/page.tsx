@@ -3,14 +3,14 @@ import Link from 'next/link';
 const projectMatrix = [
   {
     id: "01",
-    name: "viral-automation-engine",
-    description: "SaaS automation layer engineered for systemic content distributions, scheduling frameworks, and automated programmatic expansion loops.",
+    name: "Do Or Die ",
+    description: "Most people don’t need more motivation. They need less friction. Do or Die is built to make starting easier, reduce resistance, and increase repetitions — because progress comes from showing up and doing the work, again and again.",
     stack: ["TypeScript", "Next.js", "Tailwind CSS"],
-    productionUrl: "https://github.com"
+    productionUrl: "https://do-o-rdie.vercel.app/"
   },
   {
     id: "02",
-    name: "portfolio-workspace",
+    name: "Myocast",
     description: "A highly optimized, dark aesthetic typography dashboard engineered to house developer telemetry and local writing systems.",
     stack: ["Next.js", "MDX", "Vercel"],
     productionUrl: "https://lovnexora.xyz"
@@ -28,7 +28,7 @@ export default function ProjectsDashboard() {
         </div>
 
         <header className="mb-16">
-          <h1 className="text-3xl font-bold text-white tracking-tight">Selected Deployments</h1>
+          <h1 className="text-3xl font-bold text-white tracking-tight">Initializing Future</h1>
         </header>
 
         <section className="grid grid-cols-1 gap-8">

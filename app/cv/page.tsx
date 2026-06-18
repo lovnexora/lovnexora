@@ -12,7 +12,7 @@ export default function ProfileCV() {
 
         <section className="space-y-12">
           <div>
-            <h1 className="text-3xl font-bold text-white tracking-tight">Engineering Background</h1>
+            <h1 className="text-3xl font-bold text-white tracking-tight">Technology</h1>
           </div>
 
           <div className="space-y-8 text-base leading-relaxed">
