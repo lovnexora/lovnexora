@@ -2,6 +2,7 @@ import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
 import { notFound } from 'next/navigation';
+import { marked } from 'marked'; // 1. Added Markdown compiler import
 
 interface PageProps {
   params: Promise<{ slug: string }> | { slug: string };
@@ -24,6 +25,9 @@ export default async function FullBlogPost({ params }: PageProps) {
   // Strip out the metadata frontmatter block cleanly
   const cleanBody = rawContent.replace(/---[\s\S]*?---/, '').trim();
   
+  // 2. Compile the raw markdown string into standard clean HTML
+  const parsedHtml = await marked.parse(cleanBody);
+  
   const titleMatch = rawContent.match(/title:\s*"(.*?)"/);
   const title = titleMatch ? titleMatch[1] : 'System Log';
 
@@ -42,10 +46,15 @@ export default async function FullBlogPost({ params }: PageProps) {
           <h1 className="text-3xl font-bold text-white tracking-tight mb-2">{title}</h1>
         </header>
 
-        {/* Core Text Body Rendering */}
-        <article className="text-base leading-relaxed text-neutral-400 whitespace-pre-line space-y-6">
-          {cleanBody}
-        </article>
+        {/* 3. Upgraded Rich Text Body Rendering Engine with clear legibility styling */}
+        <article 
+          className="text-base leading-relaxed text-neutral-200 max-w-2xl
+                     [&_h3]:text-lg [&_h3]:font-bold [&_h3]:text-white [&_h3]:mt-8 [&_h3]:mb-4 [&_h3]:block
+                     [&_h2]:text-xl [&_h2]:font-bold [&_h2]:text-white [&_h2]:mt-8 [&_h2]:mb-4 [&_h2]:block
+                     [&_a]:text-emerald-400 [&_a]:underline hover:[&_a]:text-emerald-300
+                     [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-4 [&_li]:my-1"
+          dangerouslySetInnerHTML={{ __html: parsedHtml }}
+        />
       </div>
 
       <footer className="mt-24 pt-8 border-t border-neutral-950 text-xs text-neutral-600">
