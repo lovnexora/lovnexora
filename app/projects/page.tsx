@@ -12,8 +12,8 @@ const projectMatrix = [
     id: "02",
     name: "Myocast",
     description: "A highly optimized, dark aesthetic typography dashboard engineered to house developer telemetry and local writing systems.",
-    stack: ["Next.js", "MDX", "Vercel"],
-    productionUrl: "https://lovnexora.xyz"
+    stack: ["machine learning", "python", "streamlit"],
+    productionUrl: "https://myocast-lpsemmtamkhgjuazahuuxz.streamlit.app/"
   }
 ];
 
