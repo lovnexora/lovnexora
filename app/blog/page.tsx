@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
+import { TalkToMeButton } from '@/components/TalkToMe';
+
 
 // Helper function to read local files securely
 function getBlogPosts() {
@@ -36,13 +38,15 @@ export default function BlogIndex() {
     <main className="max-w-2xl mx-auto px-6 py-16 min-h-screen flex flex-col justify-between font-mono selection:bg-neutral-800">
       <div>
         {/* Navigation */}
-        <div className="mb-12">
+        <div className="mb-12 flex items-center justify-between w-full">
           <Link href="/" className="text-xs text-neutral-600 hover:text-emerald-500 transition-colors">&lt; return_to_root</Link>
+          <TalkToMeButton />
         </div>
 
         <header className="mb-12">
           <h1 className="text-xl font-medium text-white tracking-tight mb-2">compiled_writing.log</h1>
           <p className="text-xs text-neutral-600 uppercase tracking-wider">Stream status: Online</p>
+          
         </header>
 
         {/* Post Grid Stream */}
@@ -73,6 +77,8 @@ export default function BlogIndex() {
       <footer className="mt-16 pt-6 border-t border-neutral-950 text-[10px] text-neutral-700 flex justify-between">
         <span>LOGS_PARSED // READY</span>
         <span>SYS_v1.0</span>
+                
+
       </footer>
     </main>
   );

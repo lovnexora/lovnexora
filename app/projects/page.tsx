@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { TalkToMeButton } from '@/components/TalkToMe';
+
 
 const projectMatrix = [
   {
@@ -21,14 +23,16 @@ export default function ProjectsDashboard() {
   return (
     <main className="max-w-4xl mx-auto px-8 py-24 min-h-screen flex flex-col justify-between font-mono selection:bg-neutral-800">
       <div>
-        <div className="mb-16">
+        <div className="mb-16 flex items-center justify-between w-full">
           <Link href="/" className="text-xs text-neutral-600 hover:text-white transition-colors">
             ← Back to Index
           </Link>
+          <TalkToMeButton />
         </div>
 
         <header className="mb-16">
           <h1 className="text-3xl font-bold text-white tracking-tight">Initializing Future</h1>
+          
         </header>
 
         <section className="grid grid-cols-1 gap-8">
@@ -72,6 +76,8 @@ export default function ProjectsDashboard() {
 
       <footer className="mt-24 pt-8 border-t border-neutral-950 text-xs text-neutral-600">
         <span>Production Catalog</span>
+        
+      
       </footer>
     </main>
   );

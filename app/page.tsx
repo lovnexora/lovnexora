@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
+import { TalkToMeButton } from '@/components/TalkToMe';
+import { MailIcon } from '@/components/TalkToMe';
 
 export default function Home() {
   return (
@@ -9,22 +11,24 @@ export default function Home() {
       <div className="space-y-20">
         
         {/* Massive Focal Name Section */}
-        <header className="space-y-6">
-          <h1 className="text-5xl font-bold font-mono text-white tracking-tighter md:text-6xl">
-            Lov Nexora.
-          </h1>
-          <p className="text-lg text-emerald-500 font-mono font-medium max-w-xl leading-relaxed">
-            Building the future I want to live in,
-                  Don’t wait for perfect moment create one.
-.
-          </p>
+        <header className="flex items-start justify-between gap-6">
+          <div className="space-y-6">
+            <h1 className="text-5xl font-bold font-mono text-white tracking-tighter md:text-6xl">
+              Lov Nexora.
+            </h1>
+            <p className="text-lg text-emerald-500 font-mono font-medium max-w-xl leading-relaxed">
+              Building the future I want to live in,
+              Don't wait for perfect moment create one.
+            </p>
+          </div>
+
+          <TalkToMeButton />
         </header>
 
         {/* Clean Manifesto */}
         <section className="max-w-2xl">
           <p className="text-base leading-relaxed text-neutral-400 font-mono">
-            I’m a computer programmer. I spend most of my time thinking about ideas, building things, and getting lost in questions that probably don’t matter until they do. I’ve always been drawn to technology, science fiction, and the feeling of making something from nothing. I don’t say much, but I build a lot. Most of the things I create start as something I wish already existed.
-
+            I'm a computer programmer. I spend most of my time thinking about ideas, building things, and getting lost in questions that probably don't matter until they do. I've always been drawn to technology, science fiction, and the feeling of making something from nothing. I don't say much, but I build a lot. Most of the things I create start as something I wish already existed.
           </p>
         </section>
 
@@ -88,8 +92,12 @@ export default function Home() {
               <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
             </svg>
           </a>
+
+          {/* Mail - opens the same contact form as "Talk to me" */}
+          <MailIcon />
         </div>
-        <span className="text-neutral-500">© 2026</span>
+
+        <span className="text-neutral-500">(c) 2026</span>
       </footer>
 
     </main>
