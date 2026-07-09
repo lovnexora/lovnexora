@@ -1,6 +1,9 @@
 # LOVNEXORA
 
-Building at the intersection of generative intelligence, autonomous pipelines, and full-stack systems.
+I'm a computer programmer. I spend most of my time thinking about ideas, building things, and getting lost in questions that probably don't matter until they do. I've always been drawn to technology, science fiction, and the feeling of making something from nothing. I don't say much, but I build a lot. Most of the things I create start as something I wish already existed.
+
+Building the future I want to live in,
+              Don't wait for perfect moment create one.
 
 ---
 
