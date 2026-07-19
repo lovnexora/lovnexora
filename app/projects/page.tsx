@@ -16,6 +16,13 @@ const projectMatrix = [
     description: "A highly optimized, dark aesthetic typography dashboard engineered to house developer telemetry and local writing systems.",
     stack: ["machine learning", "python", "streamlit"],
     productionUrl: "https://myocast-lpsemmtamkhgjuazahuuxz.streamlit.app/"
+  },
+  {
+    id: "03",
+    name: "FinUp",
+    description: "A high-performance financial ledger designed to track personal capital with zero friction. It uses an active-state serverless connection layer to completely bypass traditional cloud execution bottlenecks, providing instant data delivery and resilient record updates on an entirely stateless architecture.",
+    stack: ["MongoDB Atlas", "Express.js", "React.js", "Node.js"],
+    productionUrl: "https://finup-client.vercel.app"
   }
 ];
 
