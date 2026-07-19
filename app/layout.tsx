@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
-  title: "lovnexora",
-  description: "Terminal Workspace",
+  title: "Lov Nexora | Portfolio",
+  description: "Building the future I want to live in.",
 };
 
 export default function RootLayout({
@@ -14,12 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-[#000000]">
-      <body className="antialiased bg-[#000000] text-neutral-400 font-mono select-none">
+    <html lang="en">
+      <body className="antialiased font-mono select-none">
         {children}
       </body>
-      <GoogleAnalytics gaId="G-G5FS89Z38W" />
-      <Analytics />
     </html>
   );
 }
