@@ -46,7 +46,15 @@ const PROFILE_DATA = {
       platform: "Deployed · Vercel (monorepo)",
       description: "A high-performance financial ledger designed to track personal capital with zero friction. It uses an active-state serverless connection layer to completely bypass traditional cloud execution bottlenecks, providing instant data delivery and resilient record updates on an entirely stateless architecture.",
       tools: "MongoDB · Express.js · React · Node.js"
+    },
+
+    {
+      title: "Curated Library",
+      platform: "Deployed · Vercel (monorepo)",
+      description: "A Library where you can store your personal favourite things and look at those whenever you want whether books, articles, videos etc. you can track them if you have completed them or those are in queue.",
+      tools: "SupaBase · Next.js · React · Node.js"
     }
+
   ],
 
   fieldNotes: [

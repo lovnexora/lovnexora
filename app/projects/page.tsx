@@ -6,8 +6,8 @@ const projectMatrix = [
     id: "01",
     name: "Do Or Die ",
     description: "Most people don’t need more motivation. They need less friction. Do or Die is built to make starting easier, reduce resistance, and increase repetitions — because progress comes from showing up and doing the work, again and again.",
-    stack: ["TypeScript", "Next.js", "Tailwind CSS"],
-    productionUrl: "https://do-o-rdie.vercel.app/"
+    stack: ["TypeScript", "Next.js", "Tailwind CSS", "supabase", "full stack"],
+    productionUrl: "https://do.lovnexora.xyz"
   },
   {
     id: "02",
@@ -22,7 +22,16 @@ const projectMatrix = [
     description: "A high-performance financial ledger designed to track personal capital with zero friction. It uses an active-state serverless connection layer to completely bypass traditional cloud execution bottlenecks, providing instant data delivery and resilient record updates on an entirely stateless architecture.",
     stack: ["MongoDB Atlas", "Express.js", "React.js", "Node.js"],
     productionUrl: "https://finup-client.vercel.app"
+  },
+
+  {
+    id: "04",
+    name: "Curated Library",
+    description: "A Library where you can store your personal favourite things and look at those whenever you want whether books, articles, videos etc. you can track them if you have completed them or those are in queue.",
+    stack: ["supabase", "next.js", "React.js", "Node.js"],
+    productionUrl: "https://read.lovnexora.xyz"
   }
+
 ];
 
 export default function ProjectsDashboard() {
