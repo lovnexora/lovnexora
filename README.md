@@ -23,3 +23,4 @@ Open to collaborating with engineers, researchers, and creators on:
 * Deep-dive AI integrations.
 
 ---
+https://lovnexora.xyz/
