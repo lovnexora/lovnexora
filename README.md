@@ -1,4 +1,4 @@
-# LOV NEXORA
+# Lov Nexora
 
 I'm a computer programmer. I spend most of my time tinkering with ideas, building things ( cuz that's way you learn ), and getting lost in questions that probably don't matter until they do. I've always been drawn to technology, science fiction, and the feeling of making something from nothing. I don't say much, but I build a lot. Most of the things I create start as something I wish already existed or been easy ( simplicity make things smooth ).
 
