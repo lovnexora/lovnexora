@@ -6,7 +6,7 @@
 
 <br>
 
-<img src=""C:\Users\HP\Downloads\download (8).jpg"" width="100%" />
+<img src="C:\Users\HP\Downloads\download (8).jpg" width="100%" />
 
 <br>
 
