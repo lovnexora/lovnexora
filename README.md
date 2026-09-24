@@ -9,8 +9,11 @@ just do bro
 ### 🛠️ Current STACK ( changing rapidly)
 
 **AI / ML:** Python, PyTorch, scikit-learn, Hugging Face, Transformers, NLP, LLMs, RAG, AI Agents
+
 **Web:** JavaScript, TypeScript, React, Next.js, Node.js, FastAPI, PostgreSQL, Supabase, Tailwind CSS
+
 **Tools:** Git, GitHub, Docker, Linux, Vercel
+
 **Exploring:** LLM systems, agentic AI, AI infrastructure
 
 
