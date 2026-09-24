@@ -2,11 +2,11 @@
 
 **building at the intersection of AI and software.**
 
-[portfolio](YOUR_PORTFOLIO_URL) · [x](YOUR_X_URL) · [linkedin](YOUR_LINKEDIN_URL)
+[portfolio](YOUR_PORTFOLIO_URL)  · [x](YOUR_X_URL)  · [linkedin](YOUR_LINKEDIN_URL)
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/YOUR_IMAGE" width="100%" />
+<img src="https://pin.it/24hcDSvUr" width="100%" />
 
 <br>
 
