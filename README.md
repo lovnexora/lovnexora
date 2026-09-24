@@ -1,26 +1,25 @@
-# LOVNEXORA
+# LOV NEXORA
 
-I'm a computer programmer. I spend most of my time thinking about ideas, building things, and getting lost in questions that probably don't matter until they do. I've always been drawn to technology, science fiction, and the feeling of making something from nothing. I don't say much, but I build a lot. Most of the things I create start as something I wish already existed.
+I'm a computer programmer. I spend most of my time tinkering with ideas, building things ( cuz that's way you learn ), and getting lost in questions that probably don't matter until they do. I've always been drawn to technology, science fiction, and the feeling of making something from nothing. I don't say much, but I build a lot. Most of the things I create start as something I wish already existed or been easy ( simplicity make things smooth ).
 
-Building the future I want to live in,
-              Don't wait for perfect moment create one.
+just do bro
 
 ---
 
-### 🛠️ STACK
+### 🛠️ Current STACK ( changing rapidly)
 
-* **AI / ML:** Python • PyTorch • NLP • GenAI • Deep Learning
-* **Web:** JavaScript • Node.js • React • Next.js
-* **Data:** SQL • NoSQL Databases
+**AI / ML:** Python, PyTorch, scikit-learn, Hugging Face, Transformers, NLP, LLMs, RAG, AI Agents
+**Web:** JavaScript, TypeScript, React, Next.js, Node.js, FastAPI, PostgreSQL, Supabase, Tailwind CSS
+**Tools:** Git, GitHub, Docker, Linux, Vercel
+**Exploring:** LLM systems, agentic AI, AI infrastructure
+
 
 ---
 
 ### 🤝 COLLABORATION
 
 Open to collaborating with engineers, researchers, and creators on:
-* Open-source machine learning tooling.
-* High-throughput automation and SaaS infrastructures.
-* Deep-dive AI integrations.
+* open for anything that's exciting 
 
 ---
 https://lovnexora.xyz/
