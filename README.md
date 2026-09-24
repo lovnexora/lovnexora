@@ -1,20 +1,54 @@
-<h1 align="center">I'm lov nexora</h1>
-<h3 align="center">programmer and ai engineer</h3>
+# lov nexora
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lovnexora&label=Profile%20views&color=0e75b6&style=flat" alt="lovnexora" /> </p>
+building at the intersection of AI and software.
 
-- 🌱 I’m currently learning **latest things in AI**
+[portfolio](YOUR_PORTFOLIO_URL) · [x](YOUR_X_URL) · [linkedin](YOUR_LINKEDIN_URL)
 
-- 👨‍💻 All of my projects are available at [https://lovnexora.xyz](https://lovnexora.xyz)
+---
 
-- 📝 I regularly write articles on [https://lovnexora.xyz/blogs](https://lovnexora.xyz/blogs)
+### about
 
-- 📫 How to reach me **nexoraai3491@gmail.com**
+i build software around AI, machine learning, and the systems that make them useful.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/lovnexora" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="lovnexora" height="30" width="40" /></a>
-</p>
+mostly interested in intelligent products, agentic systems, developer tools, and the messy space between research and something people can actually use.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+i learn by building. preferably things that are slightly too ambitious.
+
+### stack
+
+**AI / ML**
+Python · PyTorch · scikit-learn · NLP · LLMs · Generative AI · agents
+
+**software**
+TypeScript · JavaScript · React · Next.js · Node.js · REST APIs
+
+**data / infrastructure**
+SQL · PostgreSQL · Supabase · Git · GitHub · Vercel
+
+always adding things. occasionally removing them when reality disagrees.
+
+### selected work
+
+**AI Video Assistant**
+an AI system for working with video, from understanding content to making it useful.
+
+**Myocast**
+building around [what Myocast does / one-line description].
+
+**ML Mental Health**
+an ML project exploring practical applications of machine learning in mental-health-related data.
+
+### currently
+
+building AI products, learning systems engineering properly, contributing to open source, and trying to spend less time watching people explain how to build things and more time actually building them.
+
+### philosophy
+
+build in private.
+show the work.
+keep the interface simple.
+understand the system underneath it.
+
+---
+
+<sub>still figuring things out. just at a slightly unreasonable pace.</sub>
