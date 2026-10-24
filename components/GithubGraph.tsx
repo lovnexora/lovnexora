@@ -1,4 +1,5 @@
 import { site } from "@/lib/data";
+import ScrollEnd from "./ScrollEnd";
 
 type Day = { date: string; count: number; level: number };
 
@@ -34,7 +35,7 @@ export default async function GithubGraph() {
 
   return (
     <div>
-      <div className="gh-wrap">
+      <ScrollEnd>
         <svg viewBox={`0 0 ${w} ${h}`} role="img" aria-label={`${total} GitHub contributions in the last year`}>
           {cells.map((d, i) =>
             d ? (
@@ -44,7 +45,7 @@ export default async function GithubGraph() {
             ) : null
           )}
         </svg>
-      </div>
+      </ScrollEnd>
       <p className="muted gh-cap">
         {total.toLocaleString("en")} contributions in the last year, updated daily.{" "}
         <a className="u" href={profile} target="_blank" rel="noopener noreferrer">@{site.github} on GitHub</a>

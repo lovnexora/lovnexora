@@ -94,8 +94,9 @@ footer { margin-top: 96px; color: var(--mute); font-size: 15px; }
 @media (max-width: 860px) {
   body { font-size: 17px; }
   .shell { grid-template-columns: minmax(0, 1fr); gap: 0; padding-top: calc(28px + env(safe-area-inset-top, 0px)); }
-  .sidebar { position: static; flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 52px; }
-  .sidebar nav { flex-direction: row; gap: 20px; flex-wrap: wrap; }
+  .sidebar { position: static; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 20px 0; margin-bottom: 52px; }
+  .logo { margin-right: auto; }
+  .sidebar nav { order: 1; width: 100%; flex-direction: row; flex-wrap: nowrap; gap: 22px; white-space: nowrap; }
   .lead { font-size: 18px; }
 }
 @media (max-width: 480px) { .skills p span { display: block; } }
